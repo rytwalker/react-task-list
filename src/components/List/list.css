@@ -1,0 +1,30 @@
+.List {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.ListItem {
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+  display: flex;
+  align-items: center;
+}
+
+.ListItem > *:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.unchecked {
+  cursor: pointer;
+}
+
+.unchecked:hover {
+  color: green;
+}
+
+.delete {
+  margin-left: auto;
+  color: red;
+  cursor: pointer;
+}
