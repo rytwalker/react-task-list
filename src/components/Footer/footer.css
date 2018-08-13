@@ -1,0 +1,29 @@
+.Footer {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.task-toggle {
+  margin: 0 auto;
+}
+
+.btn {
+  border: transparent;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 2px solid #333;
+  color: #333;
+  font-size: inherit;
+  font-weight: 300;
+}
+
+.task-toggle button {
+  margin: 0 1rem;
+}
+
+a,
+a:visited {
+  color: #333;
+  text-decoration: none;
+}

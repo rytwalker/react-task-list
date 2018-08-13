@@ -15,8 +15,13 @@
   margin-right: 2rem;
 }
 
-.unchecked {
+.unchecked,
+.checked {
   cursor: pointer;
+}
+
+.checked {
+  color: green;
 }
 
 .unchecked:hover {
